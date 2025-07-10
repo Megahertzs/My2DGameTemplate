@@ -1,0 +1,4 @@
+repository "My 2D Game Template/My 2D Game Template@1374663838608@cloud"
+  path "/"
+    br "/main"
+    co "/main"

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: PauseMusic
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"In","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Out","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":118.432,"y":49.49794},"zoom":0.8,"elements":[{"defaultValues":{},"position":{"x":-248.0,"y":-79.0},"guid":"ddde14ea-8e37-40a7-aff6-11cb69cfa8ff","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"11"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"SoundManager","$type":"System.String"}},"position":{"x":-115.0,"y":31.0},"guid":"459f3026-66f9-4d49-8ffe-fe40590be13b","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"13"},{"argumentCount":0,"defaultValues":{"name":{"$content":"PauseMusic","$type":"System.String"},"target":null},"position":{"x":102.0,"y":-94.0},"guid":"f4fe9b63-4b6a-486d-af59-232d95c08aed","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"15"},{"defaultValues":{},"position":{"x":345.0,"y":-72.0},"guid":"c1bf21aa-d709-464f-b25a-a97afa1d8e0a","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"17"},{"sourceUnit":{"$ref":"11"},"sourceKey":"In","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"b2dc3e5b-6f74-48e1-b242-17d4df7f5d7d","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"exit","destinationUnit":{"$ref":"17"},"destinationKey":"Out","guid":"8644781f-a47f-43a8-8bdc-e12bfb50a017","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"target","guid":"15be5284-ebbd-40b1-b9b9-d9f6aee3098c","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
