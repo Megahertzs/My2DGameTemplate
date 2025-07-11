@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: PauseCheck
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"System.Boolean","key":"PauseCheck","label":null,"summary":null,"hideLabel":true}],"title":null,"summary":null,"pan":{"x":43.42865,"y":55.52092},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":83.0,"y":-40.0},"guid":"b2b54c7c-5b06-4b35-a8fb-f4ba117fe973","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"10"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"GameManager","$type":"System.String"}},"position":{"x":-327.0,"y":40.0},"guid":"7c12bb6e-30b9-483b-b627-ddb1cb462898","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"12"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"isPaused","$type":"System.String"},"object":null},"position":{"x":-96.0,"y":19.0},"guid":"4ba7b9e8-87ed-4ce3-a49b-8b43dcc123df","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"object","guid":"66901b5d-cbb3-4953-9f32-e6ccd83a785c","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"10"},"destinationKey":"PauseCheck","guid":"22be2ffd-b957-44cb-8810-a64666859e1c","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
