@@ -187,6 +187,8 @@ MonoBehaviour:
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.AudioClip,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GameOver","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Win","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Success","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8300000, guid: e72cb4e51e398c14ebb0d49105e91855, type: 3}
@@ -198,6 +200,8 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 904b6e24530524d448e3d80f208ad852, type: 3}
     - {fileID: 8300000, guid: b2211f7fdd358d24b927d2298c19da59, type: 3}
     - {fileID: 8300000, guid: 99848aa089e6ad04cb016561bef0ef14, type: 3}
+    - {fileID: 8300000, guid: 729971b8b230de842a41f87419977a96, type: 3}
+    - {fileID: 8300000, guid: f3f51fd64eacbf04b9338775784f2ddd, type: 3}
 --- !u!114 &508204488963025901
 MonoBehaviour:
   m_ObjectHideFlags: 0
