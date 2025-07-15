@@ -8,6 +8,7 @@ TagManager:
   - SceneManager
   - SoundManager
   - PauseScreen
+  - ObjectManager
   layers:
   - Default
   - TransparentFX
