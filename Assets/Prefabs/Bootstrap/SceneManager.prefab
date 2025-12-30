@@ -163,7 +163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 2100000, guid: ba2a6c99986b7c548a5745fed489a8ea, type: 2}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -192,7 +192,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"FadeDuration","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &2913854470842851410
 MonoBehaviour:
